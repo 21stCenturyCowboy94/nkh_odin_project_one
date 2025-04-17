@@ -127,3 +127,73 @@ a {
     align-items: center;
 }
 
+.chapter-two {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.four-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.square {
+    border: solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.gray-chapter {
+    background-color: #E5E7EB;
+    text-align: center;
+}
+
+.quote {
+    margin: 50px 200px 50px 200px;
+    font-style: italic;
+    font-size: larger;
+}
+
+.bottom-section{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-rectangle {
+    background-color: #3882F6;
+    height: 50px;
+    width: 700px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    border-radius: 10px;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-text {
+    justify-content: left;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+
+.bottom-button {
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    align-items: right;
+    width: 50px;
+    height: 10px;
+}
+
